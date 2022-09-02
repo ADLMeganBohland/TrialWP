@@ -23,6 +23,16 @@ module.exports = {
         type: 'asset/resource',
       },
 
+      //dont know if we need these going forward, but part of tutorial
+      {
+        test: /\.(csv|tsv)$/i,
+        use: ['csv-loader'],
+      },
+      {
+        test: /\.xml$/i,
+        use: ['xml-loader'],
+      },
+
     ],
     
   },

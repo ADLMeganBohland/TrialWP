@@ -1,6 +1,9 @@
 import _ from 'lodash';
 import './style.css';
 import Icon from './smile.png';
+//importing values below variables will hold parsed JSON thanks to loaders installed
+import Data from './data.xml';
+import Notes from './data.csv';
 
 function component() {
     const element = document.createElement('div'); //AHH this makes the DIV!!!
@@ -18,6 +21,10 @@ function component() {
 
     element.appendChild(myIcon);
 
+    //but apparently we are notputting them on website, but printing to console.
+    console.log(Data);
+    console.log(Notes);
+    
     return element;
   }
   //appending div to body?
