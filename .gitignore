@@ -1,1 +1,3 @@
 webpack-demo/node_modules/*
+node_modules/webpack-sources/lib/PrefixSource.js
+node_modules/*
